@@ -6,7 +6,7 @@
   font-family: "Exo 2", sans-serif;
 }
 .resim {
-  background-image: url("https://cdn.glitch.com/c338e34c-9552-4e96-a72c-b325f4015ce6%2Fpexels-harrison-candlin-2441454.jpg?v=1602533782348");
+  background-image: url(kaynaklar/pexels-harrison-candlin-2441454.jpg);
   width: 50%;
   height: 700px;
   float: left;
