@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+* {
+  paddign: 0;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+}
+.resim {
+  background-image: url("https://cdn.glitch.com/c338e34c-9552-4e96-a72c-b325f4015ce6%2Fpexels-harrison-candlin-2441454.jpg?v=1602533782348");
+  width: 50%;
+  height: 700px;
+  float: left;
+}
+
+.adiminyazdigiarkaplan {
+  background-color: #f5f5f5;
+
+  width: 50%;
+  height: 700px;
+  float: left;
+}
+
+.yapimci-adi {
+  font-size: 15px !important;
+}
+
+#icerik {
+  background-color: #f5f5f5;
+  height: 500px;
+  text-align: center;
+}
+
+#behancem,
+#githubum {
+  color: black;
+  text-decoration: none;
+}
+
+#behancem:hover {
+  background: #1D976C; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93F9B9,
+    #1D976C
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93F9B9,
+    #1D976C
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 4px;
+}
+
+#githubum:hover {
+  background: #1D976C; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93F9B9,
+    #1D976C
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93F9B9,
+    #1D976C
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+}
+
