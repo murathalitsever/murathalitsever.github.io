@@ -66,3 +66,38 @@
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  .adiminyazdigiarkaplan {
+    width: 100%;
+  }
+  .resim {
+    display: none;
+  }
+
+  .murathalitsever {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 30px;
+  }
+
+  .yazi {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 30px;
+    display: none;
+  }
+
+  #sosyal {
+    display: none;
+  }
+
+  .yazi2 {
+    display: inline !important;
+  }
+
+  #githubum,
+  #behancem {
+    font-size: 50px;
+  }
+}
+
