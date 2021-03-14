@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background: linear-gradient(to left, #4e54c8, #8f94fb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.anadiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cam-tasarim {
+  display: block;
+  max-width: 80vw;
+  margin-top: 10vh;
+  margin-bottom: 30px;
+  padding: 50px;
+  border: 1px solid rgb(235, 233, 233);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.nav-logo {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+ul.nav-items {
+  margin: 0;
+  float: right;
+  display: flex;
+  list-style-type: none;
+}
+li.nav-item {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 100;
+}
+.icerik {
+  margin-top: 15vh;
+  font-weight: normal;
+  display: inline-block;
+  padding: 20px;
+}
+.icerik-title {
+  font-size: 35px;
+}
+.icerik-desc {
+  font-size: 17px;
+  line-height: 25px;
+}
+.btn-boost {
+  margin-top: 10px;
+  border: 0;
+  width: 120px;
+  height: 50px;
+  font-size: 17px;
+  color: #ffffff;
+  background: linear-gradient(
+    111.29deg,
+    rgba(255, 255, 255, 0.53) -1.83%,
+    rgba(255, 255, 255, 0) 109.95%
+  );
+  box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid rgb(235, 233, 233);
+  cursor: pointer;
+}
+.resim-tutucu {
+  display: flex;
+  float: right;
+  margin-top: 5vh;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-bar {
+    display: none;
+  }
+  .feat-img {
+    display: none;
+  }
+  .cam-tasarim {
+    margin-top: 20vh;
+    padding: 25px;
+  }
+  .icerik {
+    margin-top: 5vh;
+  }
+  .icerik-title {
+    font-size: 30px;
+  }
+}
+ul li a {
+  text-decoration: none !important;
+  color: white !important;
+}
