@@ -21,7 +21,7 @@ fetch('https://api.github.com/users/halitsever/repos?sort=updated')
         firstreponame.setAttribute("href", data[0].clone_url)
         firstrepodesc.innerHTML = data[0].description;
         secondreponame.innerHTML = data[1].name;
-        secondreponame.setAttribute("href", data[0].clone_url)
+        secondreponame.setAttribute("href", data[1].clone_url)
         secondrepodesc.innerHTML = data[1].description;
         thirdreponame.innerHTML = data[2].name;
         thirdrepodesc.innerHTML = data[2].description;
