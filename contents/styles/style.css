@@ -1,229 +1,273 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .header {
-    padding: 10px;
+  padding: 1vh;
 }
 
 .header h1 {
-    margin-left: 25px;
+  margin-left: 2.5vh;
 }
 
 .header a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 #menu {
-    float: right;
-    margin-top: -11vh;
-    margin-right: 5vh;
+  float: right;
+  margin-top: -11vh;
+  margin-right: 5vh;
 }
 
 #menu li {
-    float: left;
-    display: block;
-    text-decoration: none;
+  float: left;
+  display: block;
+  text-decoration: none;
 }
 
 #menu li a {
-    padding: 10px;
-    font-size: 3vh;
-    font-weight: 600;
+  padding: 1vh;
+  font-size: 3vh;
+  font-weight: 600;
 }
 
 #donate_btn {
-    background-color: #e53e3e;
-    color: white;
-    border-radius: 5px;
+  background-color: #e53e3e;
+  color: white;
+  border-radius: 5px;
 }
 
 #container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 150vh;
-    margin-top: 7vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150vh;
+  margin-top: 7vh;
 }
 
 #hand-image {
-    -webkit-user-drag: none;
-    height: 35vh;
-    float: left;
+  -webkit-user-drag: none;
+  height: 35vh;
+  float: left;
 }
 
 .promotion {
-    margin-left: 20%;
+  margin-left: 20%;
 }
 
 .promotion p {
-    font-size: 20px;
-    color: #404040;
+  font-size: 20px;
+  color: #404040;
 }
 
 .promotion a {
-    text-decoration: none;
-    color: #404040;
+  text-decoration: none;
+  color: #404040;
 }
 
 .promotion a:hover {
-    color: tomato;
+  color: tomato;
 }
 
 #cards {
-    text-align: center;
+  text-align: center;
 }
 
 .card {
-    border: 1px solid #eaeaea;
-    width: 300px;
-    height: 140px;
-    float: left;
-    border-radius: 10px;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 30px;
-    margin-left: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: 1px solid #eaeaea;
+  width: 30%;
+  margin-left: 1.5vh;
+  float: left;
+  border-radius: 10px;
+  text-align: left;
+  height: 25vh;
+  padding: 1vh;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card h2 {
-    padding-left: 3px;
-    margin-top: -1px;
-    text-overflow: ellipsis;
+  padding-left: 3px;
+  margin-top: 4vh;
+  text-overflow: ellipsis;
 }
 
 .card a {
-    text-overflow: ellipsis;
-    text-decoration: none;
-    color: black;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: black;
 }
 
 .card a:hover {
-    color: tomato;
-    cursor: pointer;
+  color: tomato;
+  cursor: pointer;
 }
 
 .organizations {
-    margin-top: 50vh;
+  margin-top: 60vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .organizations img {
-    margin-left: 4vh;
-    filter: grayscale(100%);
-    -webkit-user-drag: none;
+  margin-left: 4vh;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  -webkit-user-drag: none;
 }
 
 .organizations img:hover {
-    filter: grayscale(1%);
+  filter: grayscale(1%);
 }
 
 #footer {
-    margin-top: 40vh;
-    text-align: center;
+  margin-top: 20vh;
+  text-align: center;
 }
 
 #line {
-    width: 180vh;
+  width: 180vh;
+}
+
+#hand-image {
+  clear: left;
 }
 
 .single-card {
-    border: 1px solid #eaeaea;
-    width: 300px;
-    height: 140px;
-    float: left;
-    border-radius: 10px;
-    text-align: left;
-    width: 97%;
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: 1px solid #eaeaea;
+  width: 30vh;
+  height: 20vh;
+  float: left;
+  border-radius: 10px;
+  text-align: left;
+  width: 97%;
+  margin-top: 3vh;
+  margin-left: 1vh;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .single-card a {
-    color: black;
-    margin-left: 10px;
-    text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  text-decoration: none;
 }
 
 .single-card a:hover {
-    color: tomato;
+  color: tomato;
 }
 
 .addhover:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 * {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@media only screen and (max-width:768px) {
-    body {
-        overflow: auto;
-    }
-    #container {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .logo {
-        margin-left: 6vh !important;
-    }
-    #menu {
-        margin-top: 0.1vh;
-        margin-left: -1vh;
-        margin-bottom: 20vh;
-        float: left !important;
-    }
-    .promotion {
-        overflow-wrap: break-word;
-        height: 20% !important;
-        margin-left: 0px !important;
-    }
-    .card {
-        width: 80% !important;
-        margin-left: 10%;
-    }
-    .single-card {
-        width: 83% !important;
-        margin-left: 10%;
-    }
-    .organizations img {
-        height: 10vh !important;
-    }
-    .organizations {
-        display: none;
-    }
-    #footer {
-        display: none;
-    }
-    #see-all-repos {
-        display: none;
-    }
+@media (min-width: 2052px) and (max-width: 2732px) {
+  .organizations {
+    display: none;
+  }
+}
+
+@media (min-width: 4103px) and (max-width: 5464px) {
+  .organizations {
+    display: none;
+  }
+
+  h1 {
+    font-size: 5vh;
+  }
+
+  h2 {
+    font-size: 3vh;
+  }
+
+  #line {
+    width: 85%;
+    margin-top: 50vh;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  body {
+    overflow: auto;
+  }
+  #container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    margin-left: 6vh !important;
+  }
+
+  #menu {
+    margin-top: 0.1vh;
+    margin-left: -1vh !important;
+    margin-bottom: 20vh;
+    float: left;
+  }
+  .promotion {
+    clear: left;
+    margin-top: 30vh;
+    overflow-wrap: break-word;
+    height: 20% !important;
+    margin-left: 0px !important;
+  }
+
+  .card {
+    width: 80% !important;
+    margin-left: 10%;
+    margin-top: 15vh;
+    height: 50vh;
+  }
+  .single-card {
+    width: 83% !important;
+    margin-left: 10%;
+    height: 50vh;
+    margin-top: 15vh;
+  }
+
+  .organizations {
+    display: none;
+  }
+  #footer {
+    display: none;
+  }
+  #see-all-repos {
+    display: none;
+  }
 }
