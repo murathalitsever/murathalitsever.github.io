@@ -21,6 +21,19 @@ animation-fill-mode: both;
   background-color:#222831;
 }
 
+
+#darkmode-btn, #lightmode-btn {
+  user-select: none;
+  -webkit-user-drag: none;
+  min-width:1vh;
+  max-width:40%;
+
+}
+
+#color-picker {
+  margin-left:10%;
+}
+
 .header h1 {
   margin-left: 2.5vh;
 }
@@ -64,6 +77,7 @@ animation-fill-mode: both;
 
 .menuicn {
   display:none;
+
 }
 
 #hand-image {
@@ -289,8 +303,9 @@ width:70%;
   }
 
   .menuicn {
+    font-size:4vh;
     position: absolute;
-    right: 10;
+    right: 20;
     top: 3;
     display:block;
     
