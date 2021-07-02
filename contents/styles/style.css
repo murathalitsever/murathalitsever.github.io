@@ -1,10 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 body {
   font-family: "Source Sans Pro", sans-serif;
+background-color:#393E46;
+color:white !important;
+margin:0; 
+overflow-x: hidden; 
+overflow-y: scroll;
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
 }
 
 .header {
-  padding: 1vh;
+  padding: 1vh; 
+  width:100%;
+  color:white;
+  background-color:#222831;
 }
 
 .header h1 {
@@ -13,23 +27,23 @@ body {
 
 .header a {
   text-decoration: none;
-  color: black;
+  color:white;
   font-weight: bold;
 }
 
-#menu {
+.menu {
   float: right;
   margin-top: -11vh;
   margin-right: 5vh;
 }
 
-#menu li {
+.menu li {
   float: left;
   display: block;
   text-decoration: none;
 }
 
-#menu li a {
+.menu li a {
   padding: 1vh;
   font-size: 3vh;
   font-weight: 600;
@@ -48,9 +62,13 @@ body {
   margin-top: 7vh;
 }
 
+.menuicn {
+  display:none;
+}
+
 #hand-image {
   -webkit-user-drag: none;
-  height: 35vh;
+  max-height: 30vh;
   float: left;
 }
 
@@ -60,12 +78,12 @@ body {
 
 .promotion p {
   font-size: 20px;
-  color: #404040;
+  color: white;
 }
 
 .promotion a {
   text-decoration: none;
-  color: #404040;
+  color: white;
 }
 
 .promotion a:hover {
@@ -77,7 +95,13 @@ body {
 }
 
 .card {
-  border: 1px solid #eaeaea;
+
+  background: rgba( 255, 255, 255, 0.10 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   width: 30%;
   margin-left: 1.5vh;
   float: left;
@@ -100,7 +124,7 @@ body {
 .card a {
   text-overflow: ellipsis;
   text-decoration: none;
-  color: black;
+  color:white;
 }
 
 .card a:hover {
@@ -108,31 +132,10 @@ body {
   cursor: pointer;
 }
 
-.organizations {
-  margin-top: 60vh;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.organizations img {
-  margin-left: 4vh;
-  max-width: 100%;
-  height: auto;
-  filter: grayscale(100%);
-  -webkit-user-drag: none;
-}
-
-.organizations img:hover {
-  filter: grayscale(1%);
-}
-
-#footer {
-  margin-top: 20vh;
-  text-align: center;
-}
 
 #line {
-  width: 180vh;
+width:70%;
 }
 
 #hand-image {
@@ -140,7 +143,12 @@ body {
 }
 
 .single-card {
-  border: 1px solid #eaeaea;
+  background: rgba( 255, 255, 255, 0.10 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   width: 30vh;
   height: 20vh;
   float: left;
@@ -156,7 +164,7 @@ body {
 }
 
 .single-card a {
-  color: black;
+  color:white;
   margin-left: 10px;
   text-decoration: none;
 }
@@ -169,14 +177,25 @@ body {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-* {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+
+#footer {
+  display: block;
+  margin-top:3%;
+  text-align:center;
+  overflow-wrap: break-word;
 }
+
+
+.email {
+  color:deepskyblue;
+  text-decoration:none;
+}
+
+.fa-heart {
+  color:red;
+  
+}
+
 
 @-webkit-keyframes fadeIn {
   0% {
@@ -196,16 +215,8 @@ body {
   }
 }
 
-@media (min-width: 2052px) and (max-width: 2732px) {
-  .organizations {
-    display: none;
-  }
-}
 
 @media (min-width: 4103px) and (max-width: 5464px) {
-  .organizations {
-    display: none;
-  }
 
   h1 {
     font-size: 5vh;
@@ -225,6 +236,21 @@ body {
   body {
     overflow: auto;
   }
+
+  #hand-image {
+    margin-left:15%;
+    padding-top:5%;
+    display:block;
+  }
+
+  #promotion {
+    padding-top:10vh;
+  }
+
+  #clear-mobile {
+    clear:left;
+  }
+
   #container {
     width: 90%;
     margin-left: auto;
@@ -234,12 +260,7 @@ body {
     margin-left: 6vh !important;
   }
 
-  #menu {
-    margin-top: 0.1vh;
-    margin-left: -1vh !important;
-    margin-bottom: 20vh;
-    float: left;
-  }
+
   .promotion {
     clear: left;
     margin-top: 30vh;
@@ -251,23 +272,31 @@ body {
   .card {
     width: 80% !important;
     margin-left: 10%;
-    margin-top: 15vh;
-    height: 50vh;
+    margin-top:5%;
+    height: 20%;
   }
   .single-card {
     width: 83% !important;
     margin-left: 10%;
-    height: 50vh;
-    margin-top: 15vh;
+    height: 20%;
+    padding-bottom:5%;
   }
 
-  .organizations {
-    display: none;
-  }
-  #footer {
-    display: none;
-  }
+
+
   #see-all-repos {
     display: none;
+  }
+
+  .menuicn {
+    position: absolute;
+    right: 10;
+    top: 3;
+    display:block;
+    
+  }
+
+  .menu li {
+    display:none;
   }
 }

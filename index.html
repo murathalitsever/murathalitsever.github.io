@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +7,11 @@
     <title>Halit Sever | Personal Website</title>
     <link rel="stylesheet" href="./contents/styles/style.css">
     <link rel="shortcut icon" href="./contents/assests/icn.png" type="image/x-icon">
-    <link rel="icon" href="./contents/assests/icn.png" type="image/x-icon">
     <meta
         name="description"
         content="Halit Sever's personal website. Communication with Halit Sever for software, advice and collaborations."
     />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta name="keywords" content="halit,sever,halit sever" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -23,18 +22,21 @@
 <body>
     <div class="header">
         <h1 class="logo"><a href="#"><b>halit sever</b></a></h1>
-        <div id="menu">
+        <div class="menu">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="https://github.com/halitsever">GITHUB</a></li>
                 <li><a href="./pages/donate.html" id="donate_btn" class="addhover animation">DONATE</a></li>
+                <a href="javascript:void(0);" class="menuicn" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                  </a>
             </ul>
         </div>
     </div>
     <div id="container">
         <img id="hand-image" src="./contents/assests/hand.png">
         <div class="promotion" style="margin-left:20%;">
-            <h2 style="margin-left:10% ">Hey, I'm Halit Sever</h2>
+            <h2 style="margin-left:10% ">Hey, I'm Halit Sever</h2><div id="clear-mobile"></div>
             <p style="margin-left:10%">I'm working remotely right now. You can get in touch for questions and collaborations about projects.<br> You can access my projects on <a href="#">GitHub</a>
                 <br><br>
             </p>
@@ -44,7 +46,7 @@
         <div style="clear:left"></div>
 
         <div id="cards">
-            <h2>My Last Commits</h1>
+            <h2>My Last Projects/Commits</h1>
                 <div class="card addhover">
 
                     <h2><a id="project1" href="#">null</a></h2>
@@ -72,19 +74,10 @@
 
         </div>
 
-        <div class="organizations">
-            <h3 style="text-align:center;"  style="z-index: 2;"><a id="see-all-repos" href="https://github.com/halitsever?tab=repositories" style="color:#7e53ff; text-align:center; text-decoration:none;">See all repos</a></h3>
-            <h2 style="text-align:center;">Organizations I'm involved in</h1>
-                <img src="https://avatars.githubusercontent.com/u/64755510?s=200&v=4">
-                <img src="https://avatars.githubusercontent.com/u/64755510?s=200&v=4">
-                <img src="https://avatars.githubusercontent.com/u/64755510?s=200&v=4">
-                <img src="https://avatars.githubusercontent.com/u/64755510?s=200&v=4">
-        </div>
     </div>
+    <div style="clear:left"></div>
+    <div id="footer"><p>This website made by <i class="fas fa-heart"></i> Halit Sever | <a class="email" href="mailto:halitsever@protonmail.com">halitsever@protonmail.com</a></p></div>
 
-    <div id="footer">
-        <hr id="line"> Halit Sever | Mail: halitsever@protonmail.com
-    </div>
 </body>
 <script src="./contents/scripts/main.js"></script>
 
