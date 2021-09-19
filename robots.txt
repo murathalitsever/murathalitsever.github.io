@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: 
-Disallow: /pages/donate
-
-Sitemap: https://murathalitsever.js.org/sitemap.xml
