@@ -1,7 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/C8vTXRy/icn.png">
-<br>
-<br>
-<h3 align="center">halitsever.js.org</h3><br>
-<h1 align="center">Responsive clean design</h1>
-<img src="https://i.ibb.co/2yg19Dx/Ekran-Al-nt-s.png">
+<p align="center"><img src="https://i.ibb.co/C8vTXRy/icn.png" height="100"><br>
+Installation notes can be found here: <br>https://github.com/halitsever/murathalitsever.js.org#readme<br>
+Please use the this repo when forking: <br>https://github.com/halitsever/murathalitsever.js.org
 </p>
