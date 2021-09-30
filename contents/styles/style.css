@@ -323,3 +323,13 @@ body {
 .featured-content:hover {
 	color: #3494A1;
 }
+
+/* Mobile phones */
+@media only screen and (max-width: 600px) {
+	#background-glass {
+		width:100%;
+		margin-top:0 !important;
+		margin-bottom:0 !important;
+	}
+}
+
