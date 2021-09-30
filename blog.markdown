@@ -7,7 +7,7 @@ title: Blog
 description: Thats page contains and listing my all of blog/article posts
 
 ---
-
+<div id="background-glass">
 {% include header.html %}
 
 <div id="blog-container">
@@ -32,4 +32,5 @@ description: Thats page contains and listing my all of blog/article posts
   </div>
 
   {% include footer.html %}
+</div>
 </div>

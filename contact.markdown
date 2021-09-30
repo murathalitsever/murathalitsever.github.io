@@ -7,7 +7,7 @@ title: Contact
 description: Everyone  can contact me in this page with Google forms or without Google forms
 
 ---
-
+<div id="background-glass">
 {% include header.html %}
 
 <div id="blog-container">
@@ -22,3 +22,4 @@ If you want a quicker response, <br>you can email 🥳<br>
 
 </div>
 {% include footer.html %}
+</div>

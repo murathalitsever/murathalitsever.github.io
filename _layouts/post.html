@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div id="background-glass">
 {% include header.html %}
 <article
   class="post h-entry"
@@ -55,7 +55,7 @@ layout: default
   <ul>
     <li>
       <a
-        style="color:white; text-decoration:none;"
+        class="featured-content"
         href="{{ post.url | relative_url }}"
         >{{ post.title | escape }}</a
       >
@@ -63,3 +63,4 @@ layout: default
   </ul>
   {%- endfor -%} {% include footer.html %}
 </article>
+</div>
