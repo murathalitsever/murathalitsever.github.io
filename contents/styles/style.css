@@ -18,9 +18,7 @@ body a {
 body a:hover {
   color: orange !important;
 }
-.main-section {
-  min-height: 100vh;
-}
+
 
 h1 {
   font-size: 250%;
@@ -51,7 +49,6 @@ h3 {
   border-image: url("../assets/avatar-border.svg") 10 10 / 8px / 8 round;
   width: 53%;
   margin-top: 20%;
-  margin-left: 22%;
 
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -67,7 +64,6 @@ h3 {
 
 .social {
   display: block;
-  margin-left: 21%;
   margin-top: 5%;
 }
 
@@ -79,6 +75,7 @@ h3 {
 }
 
 .content-section {
+  margin-top:20%;
   text-align: center;
   background-image: url("../assets/cube.svg");
   background-repeat: no-repeat;
