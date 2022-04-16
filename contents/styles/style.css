@@ -74,8 +74,11 @@ h3 {
   padding-right: 1%;
 }
 
+.main-section {
+  min-height:100vh;
+}
+
 .content-section {
-  margin-top:20%;
   text-align: center;
   background-image: url("../assets/cube.svg");
   background-repeat: no-repeat;
