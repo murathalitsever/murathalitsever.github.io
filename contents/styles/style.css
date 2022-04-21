@@ -108,3 +108,12 @@ max-width:100%;
   border:0px !important;
 }
 
+.arrow 
+{
+  width:400% !important;
+}
+
+.btn-primary:focus,.btn-primary:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
